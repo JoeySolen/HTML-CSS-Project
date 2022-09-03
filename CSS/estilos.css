@@ -14,12 +14,42 @@ body{
     width: 100%;
     max-width: 1170px;
     margin: auto;
-    background-color: aquamarine;
+    background-color: rgb(44, 44, 44);
 }
 
 /*CABECERA*/
 header{
     width: 100%;
     height: 200px;
-    background-color: #fcfff5;
+    background-color: #000c14;
+}
+
+.logo{
+    padding: 25px 0;
+}
+
+.logo img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 430px;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #7a7a7a;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menu a:hover{
+    color: #a4281f;
 }
