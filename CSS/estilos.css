@@ -14,7 +14,6 @@ body{
     width: 100%;
     max-width: 1170px;
     margin: auto;
-    background-color: rgb(44, 44, 44);
 }
 
 /*CABECERA*/
@@ -46,10 +45,122 @@ header{
 .menu a{
     text-decoration: none;
     color: #7a7a7a;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-size: 14px;
 }
 
 .menu a:hover{
     color: #a4281f;
+}
+
+/*FIN DE LA CABECERA*/
+
+/*BANNER PRINCIPAL*/
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/banner1.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.banner > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(161, 161, 161, 0.85);
+}
+
+.llamada-accion{
+    text-align: center;
+    color: rgb(17, 17, 17);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.llamada-accion p{
+    font-size: 24px;
+    color: rgb(54, 54, 54);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.llamada-accion h2{
+    font-size: 42px;
+    width: 100%;
+    padding: 45px 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    max-width: 470px;
+}
+.llamada-accion a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #d4d4d4;
+    padding: 10px 50px;
+    background-color: rgba(0, 0, 0, 0.47);
+    margin-top: 35px;
+}
+
+/*FIN BANNER PRINCIPAL*/
+
+/*SECCIÓN DE BIENVENIDA*/
+
+.bienvenida{
+    width: 100%;
+    background-color:#000000;
+    margin-top: 1px;
+    color: rgb(218, 218, 218);
+    text-align: center;
+}
+
+.bienvenida h3{
+    font-size: 18px;
+    padding:40px 35px;
+}
+
+.bienvenida p{
+    font-size: 16px;
+    padding-bottom: 35px;
+    line-height: 1.7em;
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+/*FIN SECCIÓN DE BIENVENIDA*/
+
+/*SECCIÓN SOBRE NOSOTROS*/
+
+.nosotros{
+    padding-bottom: 80px;
+}  
+
+.nosotros > .contenedor{
+    display: flex; /*Se hace una caja flexible*/
+    flex-direction: row; /*Luego se ordenan un elemento al lado del otro*/
+    flex-wrap: wrap; /*Para que cuando no haya espacio, se pongan uno debajo del otro*/
+    justify-content: center;
+}
+
+.foto-equipo{
+    width: 100%; /*Este es el ancho del contenedor padre*/
+    max-width: 570px;
+}
+
+.foto-equipo img{
+    width: 100%; /*El hijo toma las propiedades de anchura del padre*/
+}
+
+.conocenos{
+    text-align: center;
+    padding: 15px 0px;
+    max-width: 570px;
+}
+
+.conocenos p:nth-child(1){
+    font-size: 14px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
 }
