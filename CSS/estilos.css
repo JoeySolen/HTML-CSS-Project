@@ -27,12 +27,33 @@ header{
     padding: 25px 0;
 }
 
+
 .logo img{
     width: 100px;
     display: block;
     margin: auto;
 }
 
+.logo h1{
+    width: 100%;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.logo .red{
+    color: #E62B2B;
+}
+
+.logo .green{
+    color: #42AB34;
+}
+
+.logo .blue{
+    color: #2A4D9D;
+}
 .menu{
     display: flex;
     flex-direction: row;
@@ -82,14 +103,16 @@ header{
 }
 
 .llamada-accion p{
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: bolder;
     color: rgb(54, 54, 54);
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
-.llamada-accion h2{
-    font-size: 42px;
+.llamada-accion h3{
+    font-size: 25px;
+    text-transform: uppercase;
     width: 100%;
     padding: 45px 0;
     background-color: rgba(255, 255, 255, 0.4);
@@ -174,7 +197,7 @@ header{
 }
 
 .conocenos h3{
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 30px;
     font-size: 18px;
 }
